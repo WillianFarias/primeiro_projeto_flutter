@@ -1,8 +1,22 @@
 import 'package:flutter/material.dart';
-// import 'package:flutter/widgets.dart';
 
 void main() {
   runApp(MaterialApp(
-    home: Text("Teste"),
-  ));
+      home: Scaffold(
+          appBar: AppBar(
+            title: Text("Aula 2 - Primeiros passos"),
+          ),
+          body: SingleChildScrollView(
+            child: Column(
+              children: <Widget>[
+                Text("Aula 2 - Primeiros passos"),
+                Text("Aula 2 - Primeiros passos"),
+                Text("Aula 2 - Primeiros passos"),
+                Text("Aula 2 - Primeiros passos"),
+                Text("Aula 2 - Primeiros passos"),
+                Text("Aula 2 - Primeiros passos"),
+                Text("Aula 2 - Primeiros passos"),
+              ],
+            ),
+          ))));
 }
